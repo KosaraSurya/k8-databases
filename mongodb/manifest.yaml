@@ -40,7 +40,7 @@ spec:
     targetPort: 27017 # container port
 ---
 apiVersion: apps/v1
-kind: statefulset
+kind: StatefulSet
 metadata:
   name: mongodb
   namespace: roboshop
