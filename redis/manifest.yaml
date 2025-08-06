@@ -50,7 +50,7 @@ metadata:
     project: roboshop
     tier: database
 spec:
-  replicas: 1
+  replicas: 2
    # These are the labels replica set use to create pod replicas, this should match pod labels
   serviceName: "redis-headless" # this should be headless service 
   selector:
