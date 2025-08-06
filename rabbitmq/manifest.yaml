@@ -53,9 +53,9 @@ spec:
     port: 5672 # service port
     targetPort: 5672 # container port
 ---
-# Deployment resource
+# StatefulSet resource
 apiVersion: apps/v1
-kind: Deployment
+kind: StatefulSet
 metadata:
   name: rabbitmq
   namespace: roboshop
